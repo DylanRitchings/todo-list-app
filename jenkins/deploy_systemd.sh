@@ -11,7 +11,7 @@ cat << EOF > todo-list.service
 Description=Todo List
 
 [Service]
-DATABASE_URI = "test"
+DATABASE_URI = "34.105.147.232"
 SECRET_KEY = "hjghdjkfhgkjdfhgkjdhfg"
 sudo bash jenkins/setup.sh
 # Systemd service configuration here
