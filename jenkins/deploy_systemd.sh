@@ -22,11 +22,11 @@ Description=Todo List
 # Attach the user either to jenkins or (preferably) 
 # dedicated service user, e.g. pythonadm
 # ----------------------------------
-DATABASE_URI = "sqlite:///data.db"
-SECRET_KEY = "hjghdjkfhgkjdfhgkjdhfg"
+DATABASE_URI="sqlite:///data.db"
+SECRET_KEY="hjghdjkfhgkjdfhgkjdhfg"
 User=pythonadm
 
-sudo bash jenkins/startup.sh
+sudo bash jenkins/setup.sh
 # ----------------------------------
 
 [Install]
