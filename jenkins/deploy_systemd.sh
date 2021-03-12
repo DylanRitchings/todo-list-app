@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Install application to /opt/
-rm -r /opt/todo-list-app
-mkdir /opt/todo-list-app
-cp -r . /opt/todo-list-app
+sudo rm -r /opt/todo-list
+sudo mkdir /opt/todo-list
+sudo cp -r . /opt/todo-list
 
 # Generate service file
 cat << EOF > todo-list.service
@@ -11,8 +11,8 @@ cat << EOF > todo-list.service
 Description=Todo List
 
 [Service]
-DATABASE_URI = 
-SECRET_KEY = 
+DATABASE_URI = "test"
+SECRET_KEY = "hjghdjkfhgkjdfhgkjdhfg"
 sudo bash jenkins/setup.sh
 # Systemd service configuration here
 # You'll need to set these environment variables:
