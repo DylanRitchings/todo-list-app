@@ -14,7 +14,7 @@ Description=Todo List
 DATABASE_URI = "34.105.147.232"
 SECRET_KEY = "hjghdjkfhgkjdfhgkjdhfg"
 MYSQL_USER='root'
-MYSQL_PASSWORD='root'
+MYSQL_PASSWORD='roots'
 sudo bash jenkins/setup.sh
 # Systemd service configuration here
 # You'll need to set these environment variables:
