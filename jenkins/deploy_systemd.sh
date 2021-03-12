@@ -26,7 +26,7 @@ DATABASE_URI = "sqlite:///data.db"
 SECRET_KEY = "hjghdjkfhgkjdfhgkjdhfg"
 User=pythonadm
 
-sudo bash jenkins/setup.sh
+sudo bash jenkins/startup.sh
 # ----------------------------------
 
 [Install]
